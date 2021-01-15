@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
-body{
-    background-color: #f9f9f9;
-}
+
 nav ul li a{
     font-family: 'Roboto', sans-serif;
 }
@@ -29,11 +27,15 @@ span{
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
 }
-.title-color{
+.title-color-s{
     color: #363958;
     font-family: 'Bebas Neue', cursive;
     font-size: 24px;
-    text-transform: capitalize!important;
+    text-transform: capitalize;
+}
+.title{
+    color: #363958;
+    font-size: 24px;
 }
 .price{
     color: #FA804C;
@@ -49,7 +51,13 @@ span{
     margin-top: 16px;
     border-radius: 15px;
 }
-.box{
+.box, .card-shadow{
     border-radius: 15px;
-    box-shadow: 0px 0px 1px #acacaf;
+    box-shadow: 0 0.8px 2.2px rgb(0 0 0 / 18%);
+}
+.paragraph{
+    width: 300px;
+}
+.copywrith{
+    text-align: center;
 }
