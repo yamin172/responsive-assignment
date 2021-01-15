@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+body{
+    background-color: #f9f9f9;
+}
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+}
+.shoes-title{
+    color: #FA804C;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    width: 362px;
+}
+p{
+    width: 350px;
+}
+span{
+    color: #363958;
+}
+.btn-color {
+    background-color: #3D4FF3;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+}
+.section-title{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+.title-color{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    text-transform: capitalize!important;
+}
+.price{
+    color: #FA804C;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.box-image {
+    background-color: #f1f1f1;
+    width: 380px;
+    height: 400px;
+    margin: auto;
+    margin-top: 16px;
+    border-radius: 15px;
+}
+.box{
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px #acacaf;
+}
